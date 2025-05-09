@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Welcom {{ request.user.username }}</title>
+    </head>
+    <body>
+        <div><a href="/">SignIn/SignUp</a> </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
